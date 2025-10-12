@@ -15,3 +15,7 @@ venv/
 
 # certs (если не хотите их коммитить)
 proxy/certs/*.pem
+
+# ipynb_checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
