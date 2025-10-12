@@ -48,7 +48,7 @@ services:
     env_file: .env
     environment:
       NC_DB: pg://db:5432?u=${POSTGRES_USER}&p=${POSTGRES_PASSWORD}&d=${POSTGRES_DB_NAME}
-      NC_PUBLIC_URL: https://owa.example.ru:8441/
+      NC_PUBLIC_URL: https://${HOST}.ru:8441/
       NC_AUTH_JWT_SECRET: ${NC_AUTH_JWT_SECRET}
     depends_on:
       db:
